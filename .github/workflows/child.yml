@@ -10,6 +10,6 @@ jobs:
     name: run the child pipline
     runs-on: ubuntu-latest
     steps:
-     name: run build ns
-     run: |
-       echo "Build the API from child"
+     - name: run build ns
+       run: |
+         echo "Build the API from child"
