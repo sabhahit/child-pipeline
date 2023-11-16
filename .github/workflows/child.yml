@@ -13,3 +13,4 @@ jobs:
      - name: run build ns
        run: |
          echo "Build the API from child"
+         echo ${{ github.event.inputs.SP_USERNAME }}
