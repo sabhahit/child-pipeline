@@ -16,4 +16,6 @@ jobs:
          echo ${{ github.event.inputs.SP_USERNAME }}
          echo ${{ inputs.SP_USERNAME }}
          echo ${{ env.env_var }}
+         echo ${{ image_name }}
+         echo ${{ tag }}
         
