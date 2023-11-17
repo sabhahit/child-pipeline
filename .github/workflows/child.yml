@@ -7,7 +7,11 @@ on:
         type: string
       tag:
         required: true
-        type: string        
+        type: string
+   secrets:
+      MY_PTIKEN:
+        required: true
+       
 jobs:
   build:
     name: run the child pipline
@@ -21,4 +25,5 @@ jobs:
          echo ${{ env.env_var }}
          echo ${{ inputs.image_name }}
          echo ${{ inputs.tag }}
+         echo ${{ secrets.MY_PTOKEN }}
         
