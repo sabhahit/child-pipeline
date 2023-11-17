@@ -9,7 +9,7 @@ on:
         required: true
         type: string
    secrets:
-      MY_PTIKEN:
+      MY_PTOKEN:
         required: true
        
 jobs:
